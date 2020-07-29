@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', cursive;
+    margin: 0 5vw;
+    padding: 0;
+    text-align: center;
+}
+
+/* NAVBAR */
+
+nav ul {
+    margin: 0;
+    padding: 5px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+nav li {
+    padding: 8px 0;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #262626;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+.signIn {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.microsoft {
+    height: 23px;
+    width: 108px;
+}
+
+/* Corona Help Link  */
+.covid {
+    margin: 0;
+    background-color: #0067B8;
+    display: flex;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.9vh 0;
+    font-size: 13px;
+}
+
+.covid:hover {
+    text-decoration: underline;
+    border: 2px dotted white;
+}
+
+.covid a {
+    color: white;
+    text-decoration: none;
+}
